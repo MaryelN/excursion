@@ -26,10 +26,10 @@ header {
   display: flex;
   padding-top: 1.5rem;
 }
-logo {
-  margin: 2rem;
+.logo {
+  padding: 2rem 4rem;
 }
-.navb{
+.navb {
   flex-grow: 1;
   display: flex;
   justify-content: space-around;
@@ -37,13 +37,41 @@ logo {
   padding: 3rem;
 }
 
-section {
-  text-align: center;
+.navb__element {
+  text-decoration: none;
+  color:tomato;
+  font-family: 'Hind Madurai';
 }
 
 
-button {
-  
+section {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.title {
+  font-family: 'Montserrat';
+  padding: 3rem;
+}
+
+.subtitle {
+font-family: 'Lora';
+padding: 3rem;
+}
+
+p, btn {
+  font-family: 'Hind Madurai';
+  padding: 2rem;
+}
+
+video {
+  margin-top: 2.5rem;
+}
+
+footer {
+  margin-top: 4rem;
+  position: absolute;
+  right: 0;
 }
 
 
