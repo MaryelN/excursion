@@ -4,23 +4,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital,wght@1,400;1,500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/resources/css/style.css">
   <title>Excursion</title>
 </head>
 <body>
-  <main>
+  <header class="flux">
+    <img src="/resources/images/phone.webp" class="logo">
+    <ul class="navb">
+      <li class="navb__list">
+        <a class="navb__element" src="#">About</a>
+      </li>
+      <li class="navb__list">
+        <a class="navb__element" src="#">Shop</a>
+      </li>
+      <li class="navb__list">
+        <a class="navb__element" src="#">Contact</a>
+      </li>
+    </ul>
+  </header>
+  <main class=" flux">
+    <section class="cover">
+      <h1>Discover hidden places in the world around you</h1>
+      <div>
+        <button class="btn" href="#">Download Excursion (Comming soon!)</button>
+      </div>
+      <video autoplay="" controls="" loops="">
+        <source src="/resources/videos/excursion.mov">
+      </video>
+    </section>
 
-    <h1>Discover hidden places in the world around you</h1>
-    <a href="#">Download Excursion (Comming soon!)</a>
-    <video autoplay="" controls="" loops="">
-      <source src="/resources/videos/excursion.mov">
-    </video>
-    <h2>Your ersonal travel guide</h2>
-    <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
-    <img src="/resources/images/camp.webp" alt="Camping on the hill photography">
-    <img src="/resources/images/phone.webp" alt="phone icon">
-    <h2>Comming Soon for iPhone and Android</h2>
-    <a href="#">Download Excursion (Comming soon!)</a>
+    <section class="section2">
+      <h2>Your ersonal travel guide</h2>
+      <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+      <img src="/resources/images/camp.webp" alt="Camping on the hill photography">
+    </section>
+
+    <section class="section3">
+      <img src="/resources/images/phone.webp" alt="phone icon">
+      <h2>Comming Soon for iPhone and Android</h2>
+      <div>
+        <button href="#">Download Excursion (Comming soon!)</button>
+      </div>
+    </section>
   </main>
   <footer>
     <p> © Excursion</p>
