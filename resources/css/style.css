@@ -6,14 +6,15 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: hwb(0 0% 100%);
   color: white;
+  text-decoration: none;
+  list-style: none;
 }
 
-  a, a:active, a::after, a::before {
-    text-decoration: none;
-    color:inherit;
-  }
+body {
+  font-family: 'Hind Madurai';
+}
 
 .flux {
 width: 100%;
@@ -21,29 +22,37 @@ max-width: 1100px;
 margin-left: auto;
 margin-right: auto;
 }
-
+/* HEADER */
 header {
   display: flex;
-  padding-top: 1.5rem;
 }
 
-.logo {
-  padding: 2rem 4rem;
-}
-.navb {
-  flex-grow: 1;
+.navbar {
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+}
+.logo {
+  padding: 2rem;
 }
 
-.navb__element {
-  text-decoration: none;
-  color:tomato;
-  font-family: 'Hind Madurai';
+.navbar ul {
+  display: flex;
 }
 
+.nav__links ul li {
+  margin: 0 30px;
+}
+.nav__links ul li.active a{
+  color: tomato;
+  font-weight: bold;
+}
+
+
+/* COVER */
 
 section {
   text-align: center;
@@ -55,6 +64,12 @@ section {
   padding: 3rem;
 }
 
+video {
+  margin-top: 2.5rem;
+}
+
+/* Section2 */
+
 .subtitle {
 font-family: 'Lora';
 padding: 3rem;
@@ -63,10 +78,6 @@ padding: 3rem;
 p, btn {
   font-family: 'Hind Madurai';
   padding: 2rem;
-}
-
-video {
-  margin-top: 2.5rem;
 }
 
 footer {

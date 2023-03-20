@@ -12,18 +12,18 @@
 </head>
 <body>
   <header class="flux">
-    <img src="/resources/images/phone.webp" class="logo">
-    <ul class="navb">
-      <li class="navb__list">
-        <a class="navb__element btn" src="#">About</a>
-      </li>
-      <li class="navb__list">
-        <a class="navb__element btn" src="#">Shop</a>
-      </li>
-      <li class="navb__list">
-        <a class="navb__element btn" src="#">Contact</a>
-      </li>
-    </ul>
+    <nav class="navbar">
+      <a href="#">
+        <img src="/resources/images/phone.webp" class="logo">
+      </a>
+      <div class="nav__links">
+        <ul>
+          <li class="active"><a src="#">About</a></li>
+          <li><a src="#">Shop</a></li>
+          <li><a src="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main class=" flux">
@@ -32,8 +32,8 @@
       <div>
         <button class="btn" href="#">Download Excursion (Comming soon!)</button>
       </div>
-      <video autoplay="" controls="" loops="">
-        <source src="/resources/videos/excursion.mov">
+      <video autoplay="on" controls="" loops="">
+        <source src="/resources/videos/excursion.mov" type="video/mp4">
       </video>
     </section>
 
